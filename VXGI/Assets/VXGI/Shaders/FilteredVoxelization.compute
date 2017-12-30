@@ -18,11 +18,8 @@ Texture2D<float4>			_PositionTexture;
 // Variable representing the dimension of the voxel grid
 uint						_VoxelVolumeDimension;
 
-// Current timestamp for voxel information
-int							_CurrentTimestamp;
-
 // Pack the color and timestamp data into a single integer
-int PackData(float3 color, int timestamp)
+int PackData(float3 color)
 {
 	int finalData = 0;
 	
@@ -40,7 +37,7 @@ int PackData(float3 color, int timestamp)
 	finalData = finalData << 8;
 	finalData = finalData | colorB;
 	finalData = finalData << 8;
-	finalData = finalData | timestamp;
+	finalData = finalData | 1;
 
 	return finalData;
 }
@@ -56,7 +53,7 @@ void FilteredVoxelizationMain(uint3 id : SV_DispatchThreadID)
 	float3 worldPosition = _PositionTexture[id.xy].rgb;
 
 	// Pack the extracted color and timestamp into a single integer
-	int packedData = PackData(directLightingColor.rgb, _CurrentTimestamp);
+	int packedData = PackData(directLightingColor.rgb);
 
 	// Compute the position in the voxel grid
 	float3 voxelPosition = worldPosition * _VoxelVolumeDimension;

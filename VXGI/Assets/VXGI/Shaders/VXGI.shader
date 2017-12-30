@@ -108,9 +108,6 @@
 	// Step value used for blurring
 	uniform float					_BlurStep;
 
-	// Current timestamp for voxel information
-	uniform int						_CurrentTimestamp;
-
 	// Structure representing the input to the vertex shader
 	struct appdata
 	{
@@ -207,7 +204,7 @@
 	// Function used to unpack the data of the current voxel
 	inline float4 UnpackData(int packedData)
 	{
-		int timestamp = packedData & 255;
+		int occupied = packedData & 1;
 		packedData = packedData >> 8;
 		int colorB = packedData & 255;
 		packedData = packedData >> 8;
@@ -215,10 +212,10 @@
 		packedData = packedData >> 8;
 		int colorR = packedData & 255;
 
-		return float4(((float)colorR / 255.0), ((float)colorG / 255.0), ((float)colorB / 255.0), (float)timestamp);
+		return float4(((float)colorR / 255.0), ((float)colorG / 255.0), ((float)colorB / 255.0), (float)occupied);
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the diffuse voxel grid's first cascade
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the diffuse voxel grid's first cascade
 	inline float4 GetVoxelInfoDiffuse1(float3 worldPosition)
 	{
 		// Default value
@@ -242,7 +239,7 @@
 		return info;
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the diffuse voxel grid's second cascade
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the diffuse voxel grid's second cascade
 	inline float4 GetVoxelInfoDiffuse2(float3 worldPosition)
 	{
 		// Default value
@@ -266,7 +263,7 @@
 		return info;
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the diffuse voxel grid's third cascade
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the diffuse voxel grid's third cascade
 	inline float4 GetVoxelInfoDiffuse3(float3 worldPosition)
 	{
 		// Default value
@@ -290,7 +287,7 @@
 		return info;
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the diffuse voxel grid's fourth cascade
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the diffuse voxel grid's fourth cascade
 	inline float4 GetVoxelInfoDiffuse4(float3 worldPosition)
 	{
 		// Default value
@@ -314,7 +311,7 @@
 		return info;
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the diffuse voxel grid's fifth cascade
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the diffuse voxel grid's fifth cascade
 	inline float4 GetVoxelInfoDiffuse5(float3 worldPosition)
 	{
 		// Default value
@@ -338,7 +335,7 @@
 		return info;
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the diffuse voxel grid's sixth cascade
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the diffuse voxel grid's sixth cascade
 	inline float4 GetVoxelInfoDiffuse6(float3 worldPosition)
 	{
 		// Default value
@@ -362,7 +359,7 @@
 		return info;
 	}
 
-	// Returns the information (xyz - directLightingColor; w - timestamp) of the voxel at the given world position from the specular voxel grid
+	// Returns the information (xyz - directLightingColor; w - occupied flag ( 0 - Not Occupied ; 1 - Occupied)) of the voxel at the given world position from the specular voxel grid
 	inline float4 GetVoxelInfoSpecular(float3 worldPosition)
 	{
 		// Default value
@@ -410,8 +407,10 @@
 
 		bool hitFound = false;
 
+		float i = 1.0;
+
 		// Traces a cone through the scene using first voxel grid
-		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		for (i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
@@ -421,7 +420,7 @@
 			currentVoxelInfo = GetVoxelInfoDiffuse1(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				currentColor = (currentVoxelInfo.xyz * pixelColor);
 				hitFound = true;
@@ -430,7 +429,7 @@
 		}
 
 		// Traces a cone through the scene using second voxel grid
-		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		for (i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
@@ -440,7 +439,7 @@
 			currentVoxelInfo = GetVoxelInfoDiffuse2(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				currentColor = (currentVoxelInfo.xyz * pixelColor);
 				hitFound = true;
@@ -449,7 +448,7 @@
 		}
 
 		// Traces a cone through the scene using third voxel grid
-		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		for (i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
@@ -459,7 +458,7 @@
 			currentVoxelInfo = GetVoxelInfoDiffuse3(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				currentColor = (currentVoxelInfo.xyz * pixelColor);
 				hitFound = true;
@@ -468,7 +467,7 @@
 		}
 
 		// Traces a cone through the scene using fourth voxel grid
-		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		for (i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
@@ -478,7 +477,7 @@
 			currentVoxelInfo = GetVoxelInfoDiffuse4(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				currentColor = (currentVoxelInfo.xyz * pixelColor);
 				hitFound = true;
@@ -487,7 +486,7 @@
 		}
 
 		// Traces a cone through the scene using fifth voxel grid
-		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		for (i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
@@ -497,7 +496,7 @@
 			currentVoxelInfo = GetVoxelInfoDiffuse5(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				currentColor = (currentVoxelInfo.xyz * pixelColor);
 				hitFound = true;
@@ -506,7 +505,7 @@
 		}
 
 		// Traces a cone through the scene using sixth voxel grid
-		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		for (i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
@@ -516,7 +515,7 @@
 			currentVoxelInfo = GetVoxelInfoDiffuse6(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				currentColor = (currentVoxelInfo.xyz * pixelColor);
 				hitFound = true;
@@ -551,7 +550,7 @@
 			currentVoxelInfo = GetVoxelInfoSpecular(currentPosition);
 
 			// At the currently traced sample
-			if (((int)currentVoxelInfo.w | 0) && ((int)currentVoxelInfo.w == _CurrentTimestamp) && (!hitFound))
+			if (((int)currentVoxelInfo.w > 0.0) && (!hitFound))
 			{
 				accumulatedColor += (currentVoxelInfo.xyz * pixelColor);
 				totalWeight += currentWeight;

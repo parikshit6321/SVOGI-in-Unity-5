@@ -155,9 +155,6 @@ public class VXGI : MonoBehaviour {
     // Material for the given shader
     private Material material = null;
 
-    // Current timestamp for the voxel information
-    private int currentTimestamp = 0;
-    
     // Camera references
     private Camera[] cameras = null;
     private Camera frontCamera = null;
@@ -478,8 +475,6 @@ public class VXGI : MonoBehaviour {
             currentVoxelVolumeDimension = voxelVolumeDimensionSpecular;
         }
 
-        filteredVoxelizationShader.SetInt("_CurrentTimestamp", currentTimestamp);
-        
         // 1st pass
         // Render the color and position textures for the camera
         frontCamera.GetComponent<WorldPositionSecondary>().RenderTextures();
@@ -574,9 +569,6 @@ public class VXGI : MonoBehaviour {
 		// Reset all the voxel grid's before rendering the frame to make sure no frame repeats any previous voxel's lighting.
 		ResetVoxelGrids();
 
-        // Increment timestamp and make sure its within range of a byte
-		currentTimestamp = 1 + (currentTimestamp % 100);
-
         // Filtered per object voxelization
         VoxelizePerObject();
         
@@ -604,7 +596,6 @@ public class VXGI : MonoBehaviour {
         material.SetTexture("_NormalTexture", childCamera.GetComponent<WorldPositionChild>().normalTexture);
         material.SetFloat("_DirectStrength", directLightingStrength);
         material.SetFloat("_AmbientLightingStrength", ambientLightingStrength);
-        material.SetInt("_CurrentTimestamp", currentTimestamp);
         
         // Indirect diffuse lighting
         if(computation == Computation.DIFFUSE)
