@@ -235,7 +235,7 @@ public class VXGI : MonoBehaviour {
         // Voxelize the scene using high quality voxelization
         for (int i = 0; i < initialVoxelizationIterations; ++i)
         {
-            currentTimestamp = 100;
+            currentTimestamp = 0;
             VoxelizePerObject();
         }
     }
@@ -330,6 +330,61 @@ public class VXGI : MonoBehaviour {
         voxelVolumeBufferSpecular.SetData(voxelDataSpecular);
         
     }
+
+	void ResetVoxelGrids() {
+
+		// Diffuse voxel grid cascades
+		// First cascade
+		for (int i = 0; i < voxelVolumeDimensionDiffuse1 * voxelVolumeDimensionDiffuse1 * voxelVolumeDimensionDiffuse1; ++i)
+		{
+			voxelDataDiffuse1[i].data = 0;
+		}
+
+		// Second cascade
+		for (int i = 0; i < voxelVolumeDimensionDiffuse2 * voxelVolumeDimensionDiffuse2 * voxelVolumeDimensionDiffuse2; ++i)
+		{
+			voxelDataDiffuse2[i].data = 0;
+		}
+
+		// Third cascade
+		for (int i = 0; i < voxelVolumeDimensionDiffuse3 * voxelVolumeDimensionDiffuse3 * voxelVolumeDimensionDiffuse3; ++i)
+		{
+			voxelDataDiffuse3[i].data = 0;
+		}
+
+		// Fourth cascade
+		for (int i = 0; i < voxelVolumeDimensionDiffuse4 * voxelVolumeDimensionDiffuse4 * voxelVolumeDimensionDiffuse4; ++i)
+		{
+			voxelDataDiffuse4[i].data = 0;
+		}
+
+		// Fifth cascade
+		for (int i = 0; i < voxelVolumeDimensionDiffuse5 * voxelVolumeDimensionDiffuse5 * voxelVolumeDimensionDiffuse5; ++i)
+		{
+			voxelDataDiffuse5[i].data = 0;
+		}
+
+		// Sixth cascade
+		for (int i = 0; i < voxelVolumeDimensionDiffuse6 * voxelVolumeDimensionDiffuse6 * voxelVolumeDimensionDiffuse6; ++i)
+		{
+			voxelDataDiffuse6[i].data = 0;
+		}
+
+		// Specular voxel grid
+		for (int i = 0; i < voxelVolumeDimensionSpecular * voxelVolumeDimensionSpecular * voxelVolumeDimensionSpecular; ++i)
+		{
+			voxelDataSpecular[i].data = 0;
+		}
+
+		voxelVolumeBufferDiffuse1.SetData(voxelDataDiffuse1);
+		voxelVolumeBufferDiffuse2.SetData(voxelDataDiffuse2);
+		voxelVolumeBufferDiffuse3.SetData(voxelDataDiffuse3);
+		voxelVolumeBufferDiffuse4.SetData(voxelDataDiffuse4);
+		voxelVolumeBufferDiffuse5.SetData(voxelDataDiffuse5);
+		voxelVolumeBufferDiffuse6.SetData(voxelDataDiffuse6);
+		voxelVolumeBufferSpecular.SetData(voxelDataSpecular);
+
+	}
 
     // Function to initialize the camera references
     void InitializeCameras() {
@@ -553,9 +608,11 @@ public class VXGI : MonoBehaviour {
 	// Function called after rendering the current image
 	void OnRenderImage (RenderTexture source, RenderTexture destination) {
         
+		// Reset all the voxel grid's before rendering the frame to make sure no frame repeats any previous voxel's lighting.
+		ResetVoxelGrids();
+
         // Increment timestamp and make sure its within range of a byte
-        ++currentTimestamp;
-        currentTimestamp %= 100;
+		currentTimestamp = 1 + (currentTimestamp % 100);
 
         // Filtered per object voxelization
         VoxelizePerObject();
