@@ -252,3 +252,587 @@ Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPEC
   error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with APPROXIMATE_CONE_TRACE MEDIUM_SAMPLES
 Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
   api=4 type=1 insize=41773 outsize=131277 kw=APPROXIMATE_CONE_TRACE MEDIUM_SAMPLES pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=29825 outsize=1338 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28620 outsize=677 kw=LOW_SAMPLES APPROXIMATE_CONE_TRACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28620 outsize=131277 kw=LOW_SAMPLES APPROXIMATE_CONE_TRACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28486 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28486 outsize=561 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28485 outsize=677 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28485 outsize=2381 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28487 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28487 outsize=561 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28495 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28495 outsize=665 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28477 outsize=845 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28477 outsize=829 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28479 outsize=857 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28479 outsize=829 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28484 outsize=677 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28484 outsize=1229 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=29825 outsize=1337 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28620 outsize=677 kw=LOW_SAMPLES APPROXIMATE_CONE_TRACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28620 outsize=131277 kw=LOW_SAMPLES APPROXIMATE_CONE_TRACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28486 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28486 outsize=561 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28485 outsize=677 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28485 outsize=2381 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28487 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28487 outsize=561 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28495 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28495 outsize=665 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28477 outsize=845 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28477 outsize=829 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28479 outsize=857 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28479 outsize=829 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28484 outsize=677 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28484 outsize=1229 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=29825 outsize=1336 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28620 outsize=677 kw=LOW_SAMPLES APPROXIMATE_CONE_TRACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program with LOW_SAMPLES APPROXIMATE_CONE_TRACE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28620 outsize=131277 kw=LOW_SAMPLES APPROXIMATE_CONE_TRACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28486 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28486 outsize=561 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28485 outsize=677 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28485 outsize=2381 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28487 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28487 outsize=561 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28495 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28495 outsize=665 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28477 outsize=845 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28477 outsize=829 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28479 outsize=857 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28479 outsize=829 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=28484 outsize=677 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (434): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (453): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (472): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (491): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  error: 1 plat 4 at (510): 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=1 insize=28484 outsize=1229 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=29825 outsize=1338 ok=1

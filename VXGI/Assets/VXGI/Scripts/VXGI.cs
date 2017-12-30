@@ -13,21 +13,6 @@ public class VXGI : MonoBehaviour {
         VOXELIZATION
     }
     
-    // Enum representing the method used to perform cone tracing
-    public enum ConeTracingMethod
-    {
-        REALISTIC,
-        APPROXIMATE
-    }
-
-    // Enum representing the number of samples in the cone tracing step
-    public enum NumberOfSamples
-    {
-        LOW,
-        MEDIUM,
-        HIGH
-    }
-
     // Enum representing the voxel grid which is currently in use
     public enum VoxelGrid
     {
@@ -50,9 +35,6 @@ public class VXGI : MonoBehaviour {
     // Computation to be performed
     public Computation computation = Computation.DIFFUSE;
 
-    // Method used for the cone tracing pass
-    public ConeTracingMethod coneTracingMethod = ConeTracingMethod.REALISTIC;
-    
     // Shader used to render the final scene using cone tracing
     public Shader lightingShader = null;
     
@@ -62,9 +44,6 @@ public class VXGI : MonoBehaviour {
     // Boundary of world volume which will be voxelized in the respective cascades
     public int worldVolumeBoundary = 1;
     
-    // Number of iterations for initial voxelization computation for static objects
-    public int initialVoxelizationIterations = 10;
-    
     // Strength of the direct lighting
     public float directLightingStrength = 0.5f;
 
@@ -72,9 +51,7 @@ public class VXGI : MonoBehaviour {
     public float ambientLightingStrength = 0.1f;
 
     [Header("Indirect Diffuse Lighting")]
-    // Number of samples used in the cone tracing step
-    public NumberOfSamples numberOfSamples = NumberOfSamples.HIGH;
-
+    
     // Dimension of the voxel grid for the diffuse voxel grid
     public int voxelVolumeDimensionDiffuse = 1;
 
@@ -84,10 +61,6 @@ public class VXGI : MonoBehaviour {
 
     // Step value for the cone tracing process in the indirect diffuse lighting step
     public float coneStepDiffuse = 0.5f;
-
-    // Angle of the cone in the indirect diffuse lighting step
-    [Range(0.0f, 1.0f)]
-    public float coneAngleDiffuse = 0.3f;
 
     // Offset value for the cone tracing process in the indirect diffuse lighting step
     public float coneOffsetDiffuse = 0.1f;
@@ -210,10 +183,6 @@ public class VXGI : MonoBehaviour {
     public int voxelVolumeDimensionDiffuse6 = 1;
 
 
-    [HideInInspector]
-    // The voxel grid which is currently in use
-    public VoxelGrid currentVoxelGrid = VoxelGrid.DIFFUSE1;
-
     // Use this for initialization
     void Awake () {
         
@@ -232,12 +201,6 @@ public class VXGI : MonoBehaviour {
         // Initialize the game objects array
         InitializeGameObjectsArray();
 
-        // Voxelize the scene using high quality voxelization
-        for (int i = 0; i < initialVoxelizationIterations; ++i)
-        {
-            currentTimestamp = 0;
-            VoxelizePerObject();
-        }
     }
 	
     // Function to initialize the voxel grid data
@@ -646,42 +609,12 @@ public class VXGI : MonoBehaviour {
         // Indirect diffuse lighting
         if(computation == Computation.DIFFUSE)
         {
-            if(numberOfSamples == NumberOfSamples.LOW)
-            {
-                material.EnableKeyword("LOW_SAMPLES");
-                material.DisableKeyword("MEDIUM_SAMPLES");
-                material.DisableKeyword("HIGH_SAMPLES");
-            }
-            else if (numberOfSamples == NumberOfSamples.MEDIUM)
-            {
-                material.DisableKeyword("LOW_SAMPLES");
-                material.EnableKeyword("MEDIUM_SAMPLES");
-                material.DisableKeyword("HIGH_SAMPLES");
-            }
-            else if (numberOfSamples == NumberOfSamples.HIGH)
-            {
-                material.DisableKeyword("LOW_SAMPLES");
-                material.DisableKeyword("MEDIUM_SAMPLES");
-                material.EnableKeyword("HIGH_SAMPLES");
-            }
-
-            if(coneTracingMethod == ConeTracingMethod.APPROXIMATE)
-            {
-                material.EnableKeyword("APPROXIMATE_CONE_TRACE");
-                material.DisableKeyword("REALISTIC_CONE_TRACE");
-            }
-            else
-            {
-                material.DisableKeyword("APPROXIMATE_CONE_TRACE");
-                material.EnableKeyword("REALISTIC_CONE_TRACE");
-            }
 
             RenderTexture indirectDiffuse = RenderTexture.GetTemporary(source.width / downsampleDiffuse, source.height / downsampleDiffuse);
             RenderTexture indirectDiffuseTemp = RenderTexture.GetTemporary(source.width / downsampleDiffuse, source.height / downsampleDiffuse);
 
             material.SetFloat("_MaximumIterations", maximumIterationsDiffuse);
             material.SetFloat("_ConeStep", coneStepDiffuse);
-            material.SetFloat("_ConeAngle", coneAngleDiffuse);
             material.SetFloat("_ConeOffset", coneOffsetDiffuse);
 
             Graphics.Blit(source, indirectDiffuse, material, 0);
@@ -733,36 +666,7 @@ public class VXGI : MonoBehaviour {
         // Complete indirect illumination
         else if(computation == Computation.DIFFUSE_SPECULAR)
         {
-            if (numberOfSamples == NumberOfSamples.LOW)
-            {
-                material.EnableKeyword("LOW_SAMPLES");
-                material.DisableKeyword("MEDIUM_SAMPLES");
-                material.DisableKeyword("HIGH_SAMPLES");
-            }
-            else if (numberOfSamples == NumberOfSamples.MEDIUM)
-            {
-                material.DisableKeyword("LOW_SAMPLES");
-                material.EnableKeyword("MEDIUM_SAMPLES");
-                material.DisableKeyword("HIGH_SAMPLES");
-            }
-            else if (numberOfSamples == NumberOfSamples.HIGH)
-            {
-                material.DisableKeyword("LOW_SAMPLES");
-                material.DisableKeyword("MEDIUM_SAMPLES");
-                material.EnableKeyword("HIGH_SAMPLES");
-            }
-
-            if (coneTracingMethod == ConeTracingMethod.APPROXIMATE)
-            {
-                material.EnableKeyword("APPROXIMATE_CONE_TRACE");
-                material.DisableKeyword("REALISTIC_CONE_TRACE");
-            }
-            else
-            {
-                material.DisableKeyword("APPROXIMATE_CONE_TRACE");
-                material.EnableKeyword("REALISTIC_CONE_TRACE");
-            }
-
+            
             RenderTexture indirectDiffuse = RenderTexture.GetTemporary(source.width / downsampleDiffuse, source.height / downsampleDiffuse);
             RenderTexture indirectDiffuseTemp = RenderTexture.GetTemporary(source.width / downsampleDiffuse, source.height / downsampleDiffuse);
 
@@ -771,7 +675,6 @@ public class VXGI : MonoBehaviour {
 
             material.SetFloat("_MaximumIterations", maximumIterationsDiffuse);
             material.SetFloat("_ConeStep", coneStepDiffuse);
-            material.SetFloat("_ConeAngle", coneAngleDiffuse);
             material.SetFloat("_ConeOffset", coneOffsetDiffuse);
 
             Graphics.Blit(source, indirectDiffuse, material, 0);
