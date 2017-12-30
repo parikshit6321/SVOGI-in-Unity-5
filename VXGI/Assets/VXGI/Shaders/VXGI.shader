@@ -410,13 +410,13 @@
 
 		bool hitFound = false;
 
-		// Traces a cone through the scene
+		// Traces a cone through the scene using first voxel grid
 		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
 		{
 			// Traverse the ray in the reflected direction
 			currentPosition += (reflectedRayDirection * _ConeStep);
 
-			// First cascade
+			// First grid
 			// Get the currently hit voxel's information
 			currentVoxelInfo = GetVoxelInfoDiffuse1(currentPosition);
 
@@ -427,7 +427,15 @@
 				hitFound = true;
 			}
 
-			// Second cascade
+		}
+
+		// Traces a cone through the scene using second voxel grid
+		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		{
+			// Traverse the ray in the reflected direction
+			currentPosition += (reflectedRayDirection * _ConeStep);
+
+			// Second grid
 			// Get the currently hit voxel's information
 			currentVoxelInfo = GetVoxelInfoDiffuse2(currentPosition);
 
@@ -438,7 +446,15 @@
 				hitFound = true;
 			}
 
-			// Third cascade
+		}
+
+		// Traces a cone through the scene using third voxel grid
+		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		{
+			// Traverse the ray in the reflected direction
+			currentPosition += (reflectedRayDirection * _ConeStep);
+
+			// Third grid
 			// Get the currently hit voxel's information
 			currentVoxelInfo = GetVoxelInfoDiffuse3(currentPosition);
 
@@ -449,7 +465,15 @@
 				hitFound = true;
 			}
 
-			// Fourth cascade
+		}
+
+		// Traces a cone through the scene using fourth voxel grid
+		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		{
+			// Traverse the ray in the reflected direction
+			currentPosition += (reflectedRayDirection * _ConeStep);
+
+			// Fourth grid
 			// Get the currently hit voxel's information
 			currentVoxelInfo = GetVoxelInfoDiffuse4(currentPosition);
 
@@ -460,7 +484,15 @@
 				hitFound = true;
 			}
 
-			// Fifth cascade
+		}
+
+		// Traces a cone through the scene using fifth voxel grid
+		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		{
+			// Traverse the ray in the reflected direction
+			currentPosition += (reflectedRayDirection * _ConeStep);
+
+			// Fifth grid
 			// Get the currently hit voxel's information
 			currentVoxelInfo = GetVoxelInfoDiffuse5(currentPosition);
 
@@ -471,7 +503,15 @@
 				hitFound = true;
 			}
 
-			// Sixth cascade
+		}
+
+		// Traces a cone through the scene using sixth voxel grid
+		for (float i = 1.0; i < _MaximumIterations; i += 1.0)
+		{
+			// Traverse the ray in the reflected direction
+			currentPosition += (reflectedRayDirection * _ConeStep);
+
+			// Sixth grid
 			// Get the currently hit voxel's information
 			currentVoxelInfo = GetVoxelInfoDiffuse6(currentPosition);
 
